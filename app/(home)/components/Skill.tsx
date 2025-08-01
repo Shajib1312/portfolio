@@ -10,6 +10,7 @@ import {
   SiNodedotjs,
   SiPrisma,
   SiReact,
+  SiDocker 
 } from "react-icons/si";
 import Title from "./Title";
 
@@ -55,6 +56,12 @@ const Skill = () => {
     {
       text: "Git",
       Icon: SiGit,
+      category: "DevOps",
+      experience: "Intermediate",
+    },
+    {
+      text: "Docker",
+      Icon: SiDocker,
       category: "DevOps",
       experience: "Intermediate",
     },
