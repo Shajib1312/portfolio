@@ -28,21 +28,7 @@ export default function Project() {
       link: "https://anime-house.vercel.app",
       background: "bg-indigo-500",
     },
-    {
-      title: "Anime Series App (Anime House)",
-      tech: [
-        SiJavascript,
-        SiReact,
-        SiNextdotjs,
-        SiPrisma,
-        SiTailwindcss,
-        SiMongodb,
-      ],
-      cover: "/animehouse.jpg",
-      link: "https://anime-house.vercel.app",
-      background: "bg-indigo-500",
-    },
-
+    
     {
       title: "MovieApp (mTrailers)",
       tech: [
