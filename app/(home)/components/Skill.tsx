@@ -10,7 +10,8 @@ import {
   SiNodedotjs,
   SiPrisma,
   SiReact,
-  SiDocker 
+  SiDocker,
+  SiPostgresql 
 } from "react-icons/si";
 import Title from "./Title";
 
@@ -77,6 +78,12 @@ const Skill = () => {
       category: "Databases",
       experience: "Intermediate",
     },
+    {
+      text: "PostgreseSQL",
+      Icon: SiPostgresql,
+      category: "Databases",
+      experience: "Intermediate",
+    },
   ];
 
   return (
@@ -91,3 +98,4 @@ const Skill = () => {
 };
 
 export default Skill;
+
