@@ -29,6 +29,22 @@ export default function Project() {
       link: "https://anime-house.vercel.app",
       background: "bg-indigo-500",
     },
+
+    {
+      title: "School Mamagement System",
+      tech: [
+        SiJavascript,
+        SiReact,
+        SiNextdotjs,
+        SiPrisma,
+        SiTailwindcss,
+        SiPostgresql,
+        SiPrisma
+      ],
+      cover: "/ssm.png",
+      link: "https://github.com/Shajib1312/School-Management-Dashboard-With-NEXT-JS-15-PRISMA-TypeScript.git",
+      background: "bg-purple-500",
+    },
     
     {
       title: "MovieApp (mTrailers)",
@@ -76,4 +92,5 @@ export default function Project() {
     </div>
   );
 }
+
 
