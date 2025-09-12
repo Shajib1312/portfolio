@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { SiFacebook, SiGithub, SiLinkedin } from "react-icons/si";
+import { SiFacebook, SiGithub, SiLinkedin, SiWhatsapp  } from "react-icons/si";
 
 export default function Navbar({ className }: { className?: string }) {
   const socialLinks = [
@@ -20,6 +20,11 @@ export default function Navbar({ className }: { className?: string }) {
       name: "GitHub",
       link: "https://github.com/Shajib1312",
       icon: SiGithub,
+    },
+     {
+      name: "SiWhatsapp",
+      link: "https://wa.me/8801932111976",
+      icon: SiWhatsapp,
     },
   ];
 
@@ -46,3 +51,4 @@ export default function Navbar({ className }: { className?: string }) {
     </nav>
   );
 }
+
