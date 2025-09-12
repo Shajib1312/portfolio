@@ -9,6 +9,7 @@ import {
   SiReact,
   SiReactquery,
   SiTailwindcss,
+  SiPostgresql ,
 } from "react-icons/si";
 import Title from "./Title";
 
@@ -75,3 +76,4 @@ export default function Project() {
     </div>
   );
 }
+
