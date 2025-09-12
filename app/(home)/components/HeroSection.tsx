@@ -41,7 +41,7 @@ function HeroSection() {
             <p>
               <a
                 className="flex gap-2  hover:text-green-500 transition-all duration-300 ease-in-out"
-                href="./shajib_hasan.pdf"
+                href="./SHAJIBHASAN01.pdf"
                 download
               >
                 <MdOutlineFileDownload className="text-2xl" /> Download CV
@@ -55,3 +55,4 @@ function HeroSection() {
 }
 
 export default HeroSection;
+
